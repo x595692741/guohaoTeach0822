@@ -1,0 +1,178 @@
+@charset "utf-8";
+/***
+*头尾同用
+***/
+.bg-gray {
+    background-color: #eaeaea
+}
+
+.bg-gray-footer {
+    background: #eaeaea
+}
+/*.logo{margin:31px 0 0 0;padding:0;width:292px; height:56px;}*/
+.logo{margin:20px 0 0 0px;padding:0; height:75px;}
+.logo img{ margin-left: -10px}
+
+.top_nav{color:#cecfcf;}
+.top_nav a{display:inline-block;line-height:35px;margin:0 10px;color:#666}
+.sub_list{line-height:35px;position:relative;cursor:pointer;padding-left:10px; color:#666}
+.sub_list .listblock{display:none;height:auto;width:106px;}
+.sub_list:hover{color:#02963c; }
+.sub_list:hover .listblock{display:block;position:absolute;right:-10px;top:34px;z-index:999;background:#fff;border:#eee solid 1px; padding:0 10px}
+.sub_list:hover .listblock li{border-bottom:#eee solid 1px;}
+.sub_list:hover .listblock li:last-child{border-bottom:0;}
+.sub_list:hover .listblock li a{display:block;line-height:30px !important; }
+.hover_one{padding:0 0 0 15px!important; margin-top:5px}
+.hover_one a{position:relative;margin:0!important;padding:0!important;}
+.hover_one a .picblock{display:none;}
+.hover_one a:hover{color:#F00}
+.hover_one a:hover .picblock{display:block;position:absolute;right:0;top:35px;z-index:999}
+.header{height:120px;border-bottom:#34b178 solid 3px;background-color:#fff; }
+
+
+.top-home{ background: #d5d5d5; padding:0 10px; margin-left: 0 !important;}
+
+/**手机端wap站弹出二维码样式**/
+.wap_link{line-height:35px;position:relative;cursor:pointer;padding-left:10px; color:#666}
+.wap_link i{font-size: 18px; color: #39b87e;  margin: 9px 0 0 5px;  float: right;}
+.wap_link .wap_link_rwm{display:none;width:120px; height:120px;position:absolute;right:-15px;top:35px;z-index:999;}
+.wap_link:hover{color:#02963c; }
+.wap_link:hover .wap_link_rwm{display:block;}
+
+
+/******
+ * 顶部左侧登录状态
+ * *****/
+.margin-bottom5{ margin-bottom: 5px;}
+.hello{position: relative;padding:0 10px 0 10px; line-height: 35px;color:#666}
+
+/**首页头像**/
+.img-circle-top{ border:3px #fff solid; margin:5px 0; width:65px; height:65px; border-radius: 50%}
+.img-circle-login{ border:3px #fff solid; margin:5px 0; width:116px; height:116px; border-radius: 50%}
+.padd-img{padding:0 0 0 10px;}
+/*******
+*主导航样式
+*****/
+.list-inline{padding:40px 0 0 3%; overflow: hidden;width:calc(100% - 390px); }
+.list-inline li{padding:0 1.8%; margin: 0; display: inline-table }
+.list-inline li a{display:block;line-height:40px;text-align:center; font-size:18px; padding:0 10px}
+.list-inline li a:hover,
+.list-inline li a.active,
+.list-inline li a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #fff!important;
+    background: #02963c;
+    border-radius: 5px;
+}
+@media (max-width: 1200px){
+    .list-inline{padding:40px 0 0 1.5%;}
+    .list-inline li{padding:0 1%; }
+    .list-inline li a{font-size:19px}
+}
+@media (max-width: 992px){
+    .list-inline{padding:40px 0 0 2%;}
+    .list-inline li{padding:0 1%; }
+    .list-inline li a{font-size:19px}
+}
+
+.head-tel{padding-top:40px}
+
+/*e6e8eb*/
+.copyright{padding:20px 0;background:#d0d0d0}
+.copyright span{line-height:24px;display:block;text-align:center;color:#7f7f7f}
+.color-gary img{margin:2px 10px 0 0;}
+/*****
+*友情链接
+****/
+/*.border-lef{border-left:#f5f5f5 solid 1px;}*/
+.border-rig{  border-right: #f5f5f5 solid 1px;  }
+.border-lef{  border-left: #f5f5f5 solid 1px;  }
+.border-me {  border-right: #cccccc solid 1px;  border-left:#cccccc solid 1px;  }
+.pic_link {
+    border: #d7d7d7 solid 1px;
+    position: relative
+}
+
+.pic_link h5 {
+    padding: 0 10px;
+    height:20px;
+    background-color: #e6e8eb;
+    position: absolute;
+    left: 50%;
+    margin-left: -28%;
+    top: -20px;
+    color: #333
+}
+.pic_link .ewm{padding:10px;}
+
+.footer-nav .text-muted a {
+    color: #4d4d4d;
+    font-size: 12px;
+    line-height: 22px;
+}
+.footer-nav .text-muted h5{color:#666}
+
+.footer-nav .h5 {
+    color: #000;
+    font-size: 15px;
+    margin-top: 0;
+}
+.border-top{
+    /*border-top:#c9c9c9 solid 1px;*/
+}
+
+/******CSS3 效果*****/
+.box-shadow{-webkit-box-shadow:0 0 3px #999;-moz-box-shadow:0 0  10px #999;box-shadow:0 0 10px #999;}
+.box-radius{border-radius:5px;}
+
+/*****
+*侧边返回顶部*
+****/
+@media (max-width: 992px){
+    .izl-rmenu{ display: none}
+}
+.izl-rmenu{ margin-right: 0;width:50px; height:129px; position: fixed; right:2px;top: 50%;z-index:999;}
+
+.call, .WeChat, .microblog, .btn_top {
+    display: block;
+    height: 43px;
+    background: url("../../images/common/consult_icon.png?v=2017091201") no-repeat;
+}
+
+/*电话*/
+.call{background-position:left 0px}
+.call:hover{background-position:right 0px}
+.call .phone{background:#44c48a; position: absolute; left:-141px; top:0px; padding:0 15px; height:42px; line-height:42px; color: #e0faee; font-size:18px; text-align:center; display:none;}
+a.call:hover .phone{display:inline !important;}
+
+/*公众号*/
+.WeChat {background-position:left -43px;}
+.WeChat:hover{background-position:right -43px}
+.WeChat .pic { display: none;  position: absolute;  left: -110px;  top: 40px;  width: 109px;  height: 109px;
+    background: url("../../images/common/code_link.jpg?v=2017091201") no-repeat;
+
+}
+a.WeChat:hover .pic{display:inline !important;}
+/*微博*/
+.microblog{background-position:left -86px;}
+.microblog:hover{background-position:right -86px}
+
+/*返回顶部*/
+.btn_top {background-position: left -129px;}
+.btn_top:hover{background-position:right -129px}
+
+.text-center .jsloadmore {
+    width: 30%;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    border-radius: 15px;
+    background: #39b87e;
+    color: #fff;
+    margin: 0 auto
+}
+
+.text-center .jsloadmore:hover {
+    background: #2b966a;
+}
